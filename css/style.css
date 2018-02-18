@@ -1,0 +1,66 @@
+/*fonts customizaion*/
+* {	font-family: 'Open Sans', sans-serif}
+h1, h2, h3, h4, h5, h6 {font-weight: bold}
+@media (max-width: 400px) {
+	h1  {font-size: 6.5vw}
+	h2 { font-size: 6vw}
+	h3 {font-size: 5.5vw}
+	h4 {font-size: 5vw}
+	h5 {font-size: 4.5vw}
+	h6 {font-size: 4vw}
+	p {font-size: 4vw}}
+/*fonts customizaion*/
+body{
+	position: relative;
+}
+.space {
+	height: 150px;
+}
+.space-l {
+	height: 60px;
+}
+.loading {
+	background-color: red;
+	height: 100vw;
+}
+/*navbar*/
+.top-nav-collapse {
+            background-color: #1a237e !important;
+        }
+
+        .navbar:not(.top-nav-collapse) {
+            background: transparent !important;
+        }
+
+        @media (max-width: 768px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1a237e !important;
+            }
+        }
+/*navbar*/
+
+/*baneer*/
+#banner {
+	background-image: url('../img/banner.jpg');
+	background-attachment: fixed;
+}
+@media (max-width: 510px) {
+	#banner {
+		background-image: none;
+		background-color: #1a237e;
+	}
+}
+/*baneer*/
+
+/*logo*/
+#logo {
+	border: 2px solid black;
+	border-radius: 20%;
+}
+/*logo*/
+
+#top {
+	position: fixed;
+	bottom: 5%;
+	right: 4%;
+}
